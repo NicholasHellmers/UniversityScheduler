@@ -1,0 +1,150 @@
+
+{
+    "courses": [
+
+        {
+            "department": "CSCI",
+            "course_name": "Introduction to Computing",
+            "course_number": 3104,
+            "lectures": [
+                {
+                    "section": 110,
+                    "instructor": "Joshua Grochow",
+                    "credits": 4,
+                    "days": ["T","Th"],
+                    "time": [[9,30],[10,45]],
+                    "location": "Meets Remotely",
+                    "recitation_mandatory": true,
+                    "recitations": [
+                        {
+                            "section": 101,
+                            "instructor": "Gülce Kardes",
+                            "credits": 0,
+                            "days": ["W"],
+                            "time": [[10,10],[11,0]],
+                            "location": "Stadium Building 140"
+                        },
+                        {
+                            "section": 102,
+                            "instructor": "Abteen Ebrahimi",
+                            "credits": 0,
+                            "days": ["W"],
+                            "time": [[15,55],[16,45]],
+                            "location": "Engineering Center ECES 112"
+                        },
+                        {
+                            "section": 104,
+                            "instructor": "Gülce Kardes",
+                            "credits": 0,
+                            "days": ["W"],
+                            "time": [[9,5],[10,45]],
+                            "location": "Meets Remotely"
+                        }
+                    ]
+                },
+                {
+                    "section": 200,
+                    "instructor": "Chandra Kanth Nagesh",
+                    "credits": 4,
+                    "days": ["T","Th"],
+                    "time": [[12,30],[13,45]],
+                    "location": "Engineering Center ECCS 201",
+                    "recitation_mandatory": true,
+                    "recitations": [
+                        {
+                            "section": 201,
+                            "instructor": "Chi-Hui Lin",
+                            "credits": 0,
+                            "days": ["W"],
+                            "time": [[9,5],[9,55]],
+                            "location": "Ramaley Biology Bldg N1B31"
+                        },
+                        {
+                            "section": 202,
+                            "instructor": "Arvind Sreenivas",
+                            "credits": 0,
+                            "days": ["W"],
+                            "time": [[12,20],[13,10]],
+                            "location": "Engineering Center ECCR 150"
+                        },
+                        {
+                            "section": 203,
+                            "instructor": "Enrique Nueve",
+                            "credits": 0,
+                            "days": ["W"],
+                            "time": [[13,25],[14,15]],
+                            "location": "Stadium Building 140"
+                        },
+                        {
+                            "section": 204,
+                            "instructor": "Rameez Wajid",
+                            "credits": 0,
+                            "days": ["W"],
+                            "time": [[12,30],[13,45]],
+                            "location": "Engineering Center ECES 114"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "department": "CSCI",
+            "course_name": "Fundamentals of Human Computer Interaction",
+            "course_number": 3002,
+            "lectures": [
+                {
+                    "section": 100,
+                    "instructor": "Mirela Alistar",
+                    "credits": 4,
+                    "days": ["T","Th"],
+                    "time": [[11,0],[12,15]],
+                    "location": "Engineering Center ECCS 201",
+                    "recitation_mandatory": true,
+                    "recitations": [
+                        {
+                            "section": 101,
+                            "instructor": "Maram Kurdi",
+                            "credits": 0,
+                            "days": ["Th"],
+                            "time": [[11,0],[12,15]],
+                            "location": "Engineering Center ECES 114"
+                        },
+                        {
+                            "section": 102,
+                            "instructor": "Ali Raza",
+                            "credits": 0,
+                            "days": ["F"],
+                            "time": [[9,5],[9,55]],
+                            "location": "Stadium Building 140"
+                        },
+                        {
+                            "section": 103,
+                            "instructor": "Cornelius Adejoro",
+                            "credits": 0,
+                            "days": ["F"],
+                            "time": [[10,10],[11,0]],
+                            "location": "Engineering Center ECES 114"
+                        },
+                        {
+                            "section": 104,
+                            "instructor": "Ali Raza",
+                            "credits": 0,
+                            "days": ["F"],
+                            "time": [[14,30],[15,20]],
+                            "location": "Engineering Center ECES 114"
+                        },
+                        {
+                            "section": 105,
+                            "instructor": "Maram Kurdi",
+                            "credits": 0,
+                            "days": ["Th"],
+                            "time": [[15,30],[16,20]],
+                            "location": "Meets Remotely"
+                        }
+                    ]
+                }
+            ]
+        }
+
+    ]
+}
