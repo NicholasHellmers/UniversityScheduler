@@ -1,5 +1,11 @@
 package main
 
+import (
+	"encoding/json"
+	"fmt"
+	"io/ioutil"
+)
+
 // This app is a time scheduler for a given set of tasks. It
 // is meant to be a restful api that can be used by a front end
 // to schedule tasks. It takes in a set of tasks, and prints out the
@@ -19,4 +25,27 @@ type Node struct {
 	Day      int    `json:"Day"`
 	Time     int    `json:"Time"`
 	Priority int    `json:"Priority"`
+}
+
+func (g *Graph) AddNode(n Node) {
+	g.Nodes = append(g.Nodes, n)
+}
+
+func (g *Graph) AddEdge(n1 Node, n2 Node) {
+	g.Edges = append(g.Edges, [2]Node{n1, n2})
+}
+
+func main() {
+
+	// Populate the graph with the nodes in data.json
+	bytes, err := ioutil.ReadFile("data.json")
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+	var graph Graph
+	json.Unmarshal(bytes, &graph)
+
+	// Print out the graph
+	fmt.Println(bytes)
 }
