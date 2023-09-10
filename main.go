@@ -38,14 +38,17 @@ func (g *Graph) AddEdge(n1 Node, n2 Node) {
 func main() {
 
 	// Populate the graph with the nodes in data.json
-	bytes, err := ioutil.ReadFile("data.json")
+	data, err := ioutil.ReadFile("data.json")
 	if err != nil {
 		fmt.Println(err)
-		return
 	}
 	var graph Graph
-	json.Unmarshal(bytes, &graph)
+	err = json.Unmarshal(data, &graph.Nodes)
+	if err != nil {
+		fmt.Println(err)
+	}
 
 	// Print out the graph
-	fmt.Println(bytes)
+	fmt.Println(graph)
+
 }
