@@ -42,13 +42,16 @@ func main() {
 	if err != nil {
 		fmt.Println(err)
 	}
+
 	var graph Graph
+
 	err = json.Unmarshal(data, &graph.Nodes)
+
 	if err != nil {
 		fmt.Println(err)
 	}
 
 	// Print out the graph
-	fmt.Println(graph)
+	fmt.Println(graph.Nodes[1].Day)
 
 }
